@@ -1,9 +1,8 @@
 import React, { Component }  from 'react'
 import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
-import CollectionsOverview from '../../components/collections-overview/collections-overview.js'
-import CollectionPageContainer from '../collection/collection.container.js'
 import { fetchCollectionsStartAsync } from '../../redux/shop/shop.actions'
+import CollectionPageContainer from '../collection/collection.container.js'
 import CollectionsOverviewContainer from '../../components/collections-overview/collections-overview.container.js'
 
 class ShopPage extends Component {
